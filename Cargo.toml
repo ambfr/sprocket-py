@@ -9,5 +9,5 @@ crate-type = ["cdylib"]
 
 [dependencies]
 pyo3 = { version = "0.22", features = ["extension-module"] }
-wdl-ast  = { git = "https://github.com/stjude-rust-labs/sprocket", package = "wdl-ast" }
-wdl-lint = { git = "https://github.com/stjude-rust-labs/sprocket", package = "wdl-lint" }
+wdl-ast = { git = "https://github.com/stjude-rust-labs/sprocket", package = "wdl-ast" }
+tempfile = "3"
